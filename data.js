@@ -1,11 +1,14 @@
-const data = [
-    {nome: 'Projeto 1',
+const projects = [
+    {id: 1,
+    nome: 'Projeto 1',
     categoria: 'Identidade Visual',
-    desc: 'BlaBla'},
-    {nome: 'Projeto 2',
-    categoria: 'Identidade Visual',
-    desc: 'BlaBla'},
-    {nome: 'Projeto 3',
-    categoria: 'Identidade Visual',
-    desc: 'BlaBla'}
+    desc: 'BlaBla',
+    thumb: 'http://',
+    images: []},
+]
+
+const formation = [
+    {nome: 'Universidade Federal do Espírito Santo',
+    curso: 'Bacharel em Design',
+    duracao: '2018-2022'}
 ]
