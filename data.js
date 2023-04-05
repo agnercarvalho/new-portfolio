@@ -1,6 +1,12 @@
 const projects = [
     {id: 1,
-    nome: 'Projeto 1',
+    nome: 'Cepaes',
+    categoria: 'Identidade Visual',
+    desc: 'BlaBla',
+    thumb: 'http://',
+    images: []},
+    {id: 1,
+    nome: 'Vila Grill',
     categoria: 'Identidade Visual',
     desc: 'BlaBla',
     thumb: 'http://',
