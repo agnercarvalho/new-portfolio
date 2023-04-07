@@ -5,7 +5,7 @@ const projects = [
     desc: 'BlaBla',
     thumb: 'http://',
     images: []},
-    {id: 1,
+    {id: 2,
     nome: 'Vila Grill',
     categoria: 'Identidade Visual',
     desc: 'BlaBla',

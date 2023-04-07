@@ -11,10 +11,13 @@
 </head>
 <body>
     
-<div class="main-container">
+<div class="main-container flex column center">
     <header>
-        <nav class="top-menu">
-            <ul>
+        <nav class="top-menu flex row justify-center">
+            <div class="hello">
+                <h2>Hello :)</h2>
+            </div>
+            <ul class="top-menu-links flex center desktop-view">
                 <li>Home</li>
                 <li>Bio</li>
                 <li>Projetos</li>
@@ -26,6 +29,9 @@
     <div class="container">
         <section class="home"></div>
         <section class="bio">
+            <div class="category-title">
+                <h2>bio</h2>
+            </div>
             <div class="info">
                 <div class="bio-photo"></div>
                 <div class="bio-text">
@@ -52,12 +58,25 @@
             </div>
         </section>
         <section class="projects-container">
+            <div class="category-title">
+                <h2>projects</h2>
+            </div>
             <div class="projects">
-                <div class="filter"></div>
+                <div class="filter-container">
+                    <div class="filter">
+                        <span class="categoria-selecionada"><i class="fa fa-filter"></i>Identidade Visual<i class="fa fa-chevron-down"></i></span>
+                    </div>
+                    <div class="project-list">
+                    </div>
+                </div>
                 <div class="pro-item"></div>
             </div>
         </section>
-        <section class="contato"></section>
+        <section class="contact">
+            <div class="category-title">
+                <h2>contact</h2>
+            </div>
+        </section>
     </div>
     <footer>
         <div class="footer-links">
