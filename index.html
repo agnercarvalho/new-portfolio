@@ -13,7 +13,7 @@
     
 <div class="main-container flex column center">
     <header>
-        <nav class="top-menu flex row justify-center category-title">
+        <nav class="top-menu flex row justify-center category-title" data="topMenu">
             <div class="hello">
                 <h2>hello :)</h2>
             </div>
@@ -26,13 +26,15 @@
                 <li><a href="#">en</a></li>
             </ul>
         </nav>
+        <div class="top-menu-container category-container active-height">
+        </div>
     </header>
     <div class="container">
         <section class="bio">
-            <div class="category-title">
+            <div class="category-title" data="bio">
                 <h2>bio</h2>
             </div>
-            <div class="bio-container category-container active-height">
+            <div class="bio-container category-container">
                 <div class="info flex padding-s">
                     <div class="bio-text">
                         <h1>Agner Carvalho</h1>
@@ -66,10 +68,10 @@
             </div>
         </section>
         <section class="projects-container">
-            <div class="category-title">
+            <div class="category-title" data="projects">
                 <h2>projects</h2>
             </div>
-            <div class="projects flex column center d-none">
+            <div class="projects category-container flex column center">
                 <div class="filter-container">
                     <div class="filter">
                         <span class="categoria-selecionada"><i class="fa fa-filter"></i>Identidade Visual<i class="fa fa-chevron-down"></i></span>
@@ -81,8 +83,10 @@
             </div>
         </section>
         <section class="contact">
-            <div class="category-title">
+            <div class="category-title" data="contact">
                 <h2>get in touch</h2>
+            </div>
+            <div class="contact-container category-container">
             </div>
         </section>
     </div>
